@@ -1,12 +1,8 @@
-خطوات بناء الـ APK (من غير كود)
+تحديث التطبيق (نسخة جراحة B)
 
-1) اعمل حساب مجاني على github.com
-2) اضغط New repository واكتب أي اسم (مثلا target85) واختار Public ثم Create repository
-3) اضغط uploading an existing file وارفع كل محتويات الفولدر ده (www و package.json و capacitor.config.json و فولدر .github)
-   لو فولدر .github مش ظاهر عندك: اضغط Add file ثم Create new file، اكتب الاسم: .github/workflows/build-apk.yml
-   وانسخ جواه محتوى الملف build-apk.yml، ثم Commit changes
-4) ادخل تبويب Actions، استنى حوالي 5 دقايق لحد ما يظهر علامة صح خضرا
-5) افتح العملية الأخيرة، ونزّل من Artifacts ملف target85-apk (zip)، فكه، هتلاقي app-debug.apk
-6) انقل الـ APK للموبايل وافتحه، وفعّل السماح بالتثبيت من مصدر غير معروف لو طلب منك
-
-ملاحظة: بياناتك داخل التطبيق محفوظة على الموبايل نفسه.
+1) افتح الريبو target-85 على GitHub.
+2) Add file ثم Upload files، وارفع محتويات الفولدر ده كلها (www و scripts و debug.keystore و package.json و capacitor.config.json).
+   ملفات بنفس الاسم هتتبدل لوحدها. ما تلمسش فولدر .github، الموجود عندك شغال زي ما هو.
+3) اضغط Commit changes، وافتح تبويب Actions وانتظر العلامة الخضرا (حوالي 5 دقايق).
+4) نزّل target85-apk من Artifacts، فكّه، وثبّت app-debug.apk.
+التطبيق ده بيتثبت جنب القديم (اسمه جراحة B)، فمش لازم تمسح القديم.

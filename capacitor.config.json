@@ -1,5 +1,6 @@
 {
-  "appId": "com.tarek.target85",
-  "appName": "تارجت 85",
-  "webDir": "www"
+  "appId": "com.tarek.surgeryb",
+  "appName": "جراحة B",
+  "webDir": "www",
+  "backgroundColor": "#0f1417"
 }
